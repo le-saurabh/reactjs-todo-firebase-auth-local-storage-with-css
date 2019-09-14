@@ -1,0 +1,116 @@
+.heading
+{
+  position: relative;
+  width: 35%;
+  top: 150px;
+  left: 500px;
+}
+
+.gdmrng
+{
+  font-size: 32px;
+  color: #281e5f;
+}
+
+.your
+{
+  font-size: 20px;
+  color: antiquewhite;
+}
+
+.adding
+{
+  position: relative;
+  width: 35%;
+  top: 150px;
+  left: 900px;
+}
+
+.classic
+{
+  position: absolute;
+  left: 100px;
+  padding: 130px 120px;
+  background: url(button.jpeg) no-repeat;
+  background-size: 350px 280px;
+  border-radius: 48px;
+
+}
+
+.ppic
+{
+  position: absolute;
+  left: 280px;
+  top: 120px;
+  padding: 100px 100px;
+  background: url(profile.jpg) no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  background-position: center;
+  border: 5px solid white;
+}
+
+.main_list
+{
+  position: relative;
+  width: 30%;
+  top: 100px;
+  left: 480px;
+}
+
+.logout
+{
+  position: fixed;
+  width: 10%;
+  bottom: 700px;
+  left: 1300px;
+}
+
+.list-item
+{
+    float: left;
+    clear: left;
+}
+
+.list_2
+{
+  display: inline-block;
+}
+
+.text
+{
+  width: 10%;
+  z-index: 999;
+}
+
+.btn-group button 
+{
+  background: #3F3C48;
+  border-radius: 25px;
+  width: 482px;
+  height: 90px;
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: center; /* Float the buttons side by side */
+  margin-top:16px;
+}
+
+.btn-group button:hover 
+{
+  background-color: #3e618e;
+}
+
+ul
+{
+    column-count: 2;
+    column-gap: 0px;
+    display: flex;
+    justify-content: center; 
+    list-style-type: none;
+}
+
+input[type="text"]
+{  
+  text-align: center; 
+} 
